@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body{
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+position: absolute;
+z-index: 100;
+top: 10px;
+left: 10px;
+display: flex;
+align-items: center;
+font-family:'Patua One', cursive;
+margin: 5px;
+}
+
+main h1{
+    font-size: 35px;
+    margin: 10px;
+
+}
+
+
+#user_input{
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid red;
+  
+}
+#submit_button{
+    margin: 10px;
+    box-shadow: 3px 4px 0px 0px #383a3b;
+	background:linear-gradient(to bottom, #ededed 5%, #808080 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #636363;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:10px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+
+
+#submit_button:hover {
+	background:linear-gradient(to bottom, #808080 5%, #ededed 100%);
+	background-color:#808080;
+}
+#submit_button:active {
+	position:relative;
+	top:1px;
+}
